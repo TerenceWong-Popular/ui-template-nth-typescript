@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UI Template NTH</title>
+  <meta name="description" content="e-Smart.AI web UI template header, footer, language switch, and theme components in TypeScript">
+  <meta property="og:title" content="UI Template NTH">
+  <meta property="og:description" content="e-Smart.AI web UI template header, footer, language switch, and theme components in TypeScript">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo-32.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/assets/logo-128.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="/assets/logo-256.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/logo-114.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/ui-template.css">
+  <script type="module" src="/components/ui-header.tsx"></script>
+  <script type="module" src="/components/ui-main.tsx"></script>
+  <script type="module" src="/components/ui-footer.tsx"></script>
+  <script type="module" src="/scripts/ui-language.ts"></script>
+</head>
+<body>
+  <div id="root">
+    <div class="app theme-b">
+      <ui-header title-zh="{title}" title-en="{title}" user-name="{user_name}" ai-points="{AI Point}"></ui-header>
+      <ui-main></ui-main>
+      <ui-footer class="app-footer"></ui-footer>
+    </div>
+  </div>
+</body>
+</html>

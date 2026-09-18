@@ -1,0 +1,6 @@
+{
+  "name": "UI Template NTH",
+  "description": "e-Smart.AI web UI template header, footer, language switch, and theme components in TypeScript",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

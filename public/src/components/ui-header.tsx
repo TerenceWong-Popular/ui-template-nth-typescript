@@ -1,5 +1,7 @@
 "use strict";
 
+const eSmartLogo = new URL('../assets/e-smart-logo.png', import.meta.url).href;
+
 class UiHeader extends HTMLElement {
   connectedCallback() {
     if (this.firstElementChild) return;
@@ -13,7 +15,7 @@ class UiHeader extends HTMLElement {
       <header class="topbar">
         <div class="topbar-left">
           <div class="brand">
-            <img src="assets/e-smart-logo.png" onerror="this.onerror=null; this.src='https://e-smartai.ephhk.com/portal/icons/e-smart-logo.png';" alt="e-Smart" class="brand-logo">
+            <img src="${eSmartLogo}" onerror="this.onerror=null; this.src='https://e-smartai.ephhk.com/portal/icons/e-smart-logo.png';" alt="e-Smart" class="brand-logo">
           </div>
         </div>
         <div class="topbar-center">
